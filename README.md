@@ -25,7 +25,7 @@ Download the latest CircuitPython for you board:
 
 Copy only the libs that you need.
 
-You can the latest version of the libs from (https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest).
+You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest).
 
 Library API:
 
