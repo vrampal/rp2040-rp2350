@@ -1,6 +1,5 @@
 import usb_hid
 from adafruit_hid.consumer_control import ConsumerControl
-from adafruit_hid.consumer_control_code import ConsumerControlCode
 from adafruit_hid.keyboard import Keyboard
 from time import sleep
 
@@ -13,17 +12,12 @@ from keycode_win_de import Keycode
 
 keyboard = Keyboard(usb_hid.devices)
 layout = keyboard_layout.KeyboardLayout(keyboard)
-cc = ConsumerControl(usb_hid.devices)
 
 keyboard.send(Keycode.WINDOWS, Keycode.D)
 sleep(0.1)
 keyboard.send(Keycode.WINDOWS, Keycode.R)
 sleep(0.2)
-layout.write("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
+layout.write("https://www.fakeupdate.net/wnc/")
 keyboard.send(Keycode.ENTER)
-for n in range(100):
-    cc.send(ConsumerControlCode.VOLUME_INCREMENT)
 sleep(0.5)
 keyboard.send(Keycode.F11)
-sleep(2.0)
-keyboard.send(Keycode.F)
