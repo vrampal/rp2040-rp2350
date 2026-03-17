@@ -27,9 +27,12 @@ Copy only the libs that you need.
 
 You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest).
 
-Library API:
+## Related documentation
 
-[Adafruit NeoPixel](https://docs.circuitpython.org/projects/neopixel/en/stable/)
+[CircuitPython](https://docs.circuitpython.org/en/stable/docs/)
 
-[Adafruit HID](https://docs.circuitpython.org/projects/hid/en/stable/)
+[Adafruit NeoPixel library](https://docs.circuitpython.org/projects/neopixel/en/stable/)
 
+[Adafruit HID library](https://docs.circuitpython.org/projects/hid/en/stable/)
+
+[Adafruit HTTPServer library](https://docs.circuitpython.org/projects/httpserver/en/stable/)
