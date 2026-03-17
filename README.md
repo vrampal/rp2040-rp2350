@@ -31,8 +31,12 @@ You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](http
 
 [CircuitPython](https://docs.circuitpython.org/en/stable/docs/)
 
-[Adafruit NeoPixel library](https://docs.circuitpython.org/projects/neopixel/en/stable/)
+[Adafruit Ducky library](https://docs.circuitpython.org/projects/ducky/en/stable/)
 
 [Adafruit HID library](https://docs.circuitpython.org/projects/hid/en/stable/)
 
 [Adafruit HTTPServer library](https://docs.circuitpython.org/projects/httpserver/en/stable/)
+
+[Adafruit MiniMQTT library](https://docs.circuitpython.org/projects/minimqtt/en/stable/)
+
+[Adafruit NeoPixel library](https://docs.circuitpython.org/projects/neopixel/en/stable/)
