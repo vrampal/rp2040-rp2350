@@ -5,23 +5,22 @@ import supervisor
 
 # This must be run in boot.py and not code.py
 
-# These lines will change vendor id, device id, hide storage and REPL
-# WARNING: it will become IMPOSSIBLE to access or modify code.py or boot.py after reboot
-
-# Mimic a Logitech Unifying Receiver
-# see: https://devicehunt.com/view/type/usb/vendor/046D
+# The following lines will change vendor id and device id.
+# WARNING: changing the vid and pid will prevent the REPL debugger to connect to the devide.
+# Almost mimic a Logitech Unifying Receiver, see: https://devicehunt.com/view/type/usb/vendor/046D
+# Use an obsolete vid to not confuse Logitech drivers, Logitech normal vid is 0x046D
 supervisor.set_usb_identification(
-    # Use an obsolete vid to not confuse Logitech drivers
-    # normal Logitech vid is 0x046D
     vid=0x04E0,
     pid=0xC52B,
     manufacturer="Logitech, Inc.",
     product="Unifying Receiver"
 )
-
-# Disable storage
-storage.disable_usb_drive()
 # Disable REPL
 usb_cdc.disable()
+
+# Uncommenting the folling line will disable storage.
+# WARNING: it will become IMPOSSIBLE to access or modify code.py or boot.py after reboot
+#storage.disable_usb_drive()
+
 # Disable MIDI
 usb_midi.disable()
