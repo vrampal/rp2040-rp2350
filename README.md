@@ -31,5 +31,5 @@ You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](http
 | Adafruit HTTPServer library | [Link](https://docs.circuitpython.org/projects/httpserver/en/stable/) | [Link](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer) |
 | Adafruit MiniMQTT library   | [Link](https://docs.circuitpython.org/projects/minimqtt/en/stable/)   | [Link](https://github.com/adafruit/Adafruit_CircuitPython_MiniMQTT)   |
 | Adafruit NeoPixel library   | [Link](https://docs.circuitpython.org/projects/neopixel/en/stable/)   | [Link](https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel)   |
-| Adafruit Requests           | [Link(https://docs.circuitpython.org/projects/requests/en/stable/)    | [Link](https://github.com/adafruit/Adafruit_CircuitPython_Requests)   |
+| Adafruit Requests           | [Link](https://docs.circuitpython.org/projects/requests/en/stable/)   | [Link](https://github.com/adafruit/Adafruit_CircuitPython_Requests)   |
 | JoystickXL                  | [Link](https://circuitpython-joystickxl.readthedocs.io/en/stable/)    | [Link](https://github.com/fasteddy516/CircuitPython_JoystickXL)       |
