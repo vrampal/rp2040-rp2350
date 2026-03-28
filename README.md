@@ -24,6 +24,14 @@ Experiments in this repo are designed to run in Adafruit CircuitPython.
 
 [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials)
 
+## Editors with REPL capability
+
+Mu [Repo](https://github.com/mu-editor/mu) [Website](https://codewith.mu/) [Tutorial](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor)
+
+Thonny [Repo](https://github.com/thonny/thonny/) [Website](https://thonny.org/)
+
+CircuitPython VSCode extention [Marketplace](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2) [Repo](https://github.com/wmerkens/vscode-circuitpython) [Tutorial](https://learn.adafruit.com/using-the-circuitpython-extension-for-visual-studio-code)
+
 ## CircuitPython Libraries
 
 You can the latest version of the libs from [Adafruit_CircuitPython_Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest).
