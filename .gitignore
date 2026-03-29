@@ -99,3 +99,4 @@ hs_err_pid*
 *.hprof
 
 # Project specific files
+settings.toml
