@@ -1,12 +1,12 @@
-import usb_cdc
-import usb_midi
 import storage
 import supervisor
+import usb_cdc
+import usb_midi
 
-# This must be run in boot.py and not code.py
+# WARNING: This must be run in boot.py, not code.py
 
 # The following lines will change vendor id and device id.
-# WARNING: changing the vid and pid will prevent the REPL debugger to connect to the devide.
+# WARNING: changing the vid and pid will prevent the REPL debugger to detect the devide.
 # Almost mimic a Logitech Unifying Receiver, see: https://devicehunt.com/view/type/usb/vendor/046D
 # Use an obsolete vid to not confuse Logitech drivers, Logitech normal vid is 0x046D
 supervisor.set_usb_identification(
@@ -15,7 +15,8 @@ supervisor.set_usb_identification(
     manufacturer="Logitech, Inc.",
     product="Unifying Receiver"
 )
-# Disable REPL
+
+# Disable COM port, loose REPL capability.
 usb_cdc.disable()
 
 # Uncommenting the folling line will disable storage.

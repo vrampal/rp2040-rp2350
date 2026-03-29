@@ -6,7 +6,7 @@ from adafruit_hid.mouse import Mouse
 from time import sleep
 
 # Designed for Waveshare RP2040-One
-# Should also work on RP2040-Zero, RP2350-Zero, RP2350-One
+# Should work on board with USB and NeoPixel
 
 # ----- LED colors ------
 BLACK = (  0,   0,   0)

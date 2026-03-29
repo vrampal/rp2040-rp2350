@@ -2,8 +2,8 @@ import board
 import digitalio
 from time import sleep
 
-# Designed for any Raspberri Pi Pico
-# Gen 1 or Gen 2, with our without wireless
+# Designed for Raspberri Pi Pico
+# Should work on any board with basic LED
 
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT

@@ -1,9 +1,9 @@
 import usb_hid
-from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.keyboard import Keyboard
 from time import sleep
 
-# Adjust depending of the targetted keyboard layout
+# IMPORTANT: Select the different keyboard layout depending of your target
+# "us" is for QWERTY, "fr" is for AZERTY, "ge" is for QWERTZ
 import keyboard_layout_win_us as keyboard_layout
 from keycode_win_us import Keycode
 

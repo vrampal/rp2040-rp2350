@@ -1,14 +1,14 @@
 import usb_hid
-from adafruit_hid.consumer_control import ConsumerControl
 from adafruit_hid.keyboard import Keyboard
 from time import sleep
 
-# Adjust depending of the targetted keyboard layout
+# IMPORTANT: Select the different keyboard layout depending of your target
+# "us" is for QWERTY, "fr" is for AZERTY, "ge" is for QWERTZ
 import keyboard_layout_win_fr as keyboard_layout
 from keycode_win_fr import Keycode
 
 # Designed for Waveshare RP2040-One
-# Should also work on any RP2040 or RP2350 board
+# Should work on board with USB
 
 keyboard = Keyboard(usb_hid.devices)
 layout = keyboard_layout.KeyboardLayout(keyboard)
