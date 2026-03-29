@@ -3,7 +3,7 @@ import digitalio
 from time import sleep
 
 # Designed for Raspberri Pi Pico
-# Should work on any board with basic LED
+# Should work on any board with LED
 
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
