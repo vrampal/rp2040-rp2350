@@ -17,7 +17,11 @@ Experiments in this repo are designed to run in Adafruit CircuitPython.
 | Waveshare    | RP2350-One     | RP2350   | 4 MB   | RGB GP16       | [Link](https://www.waveshare.com/wiki/RP2350-One)    | [Link](https://circuitpython.org/board/waveshare_rp2350_one/) |
 | Pimoroni     | Tiny 2040      | RP2040   | 2/8 MB | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2040) | [Link](https://circuitpython.org/board/pimoroni_tiny2040/) |
 | Pimoroni     | Tiny 2350      | RP2350   | 4 MB   | RGB GP18+19+20 | [Link](https://shop.pimoroni.com/products/tiny-2350) | [Link](https://circuitpython.org/board/pimoroni_tiny2350/) |
-| Expressif    | ESP32-S3 N16R8 | ESP32-S3 | 16 MB  | GPIO38         | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/yd_esp32_s3_n16r8/) |
+| Expressif    | ESP32-S3 N8    | ESP32-S3 | 8 MB   | GPIO38 ?       | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8/) |
+| Expressif    | ESP32-S3 N8R8  | ESP32-S3 | 8 MB   | GPIO38 ?       | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n8r8/) |
+| Expressif    | ESP32-S3 N16   | ESP32-S3 | 16 MB  | GPIO38 ?       | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n16/) |
+| Expressif    | ESP32-S3 N16R8 | ESP32-S3 | 16 MB  | GPIO38 ?       | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/yd_esp32_s3_n16r8/) |
+| Expressif    | ESP32-S3 N32R8 | ESP32-S3 | 32 MB  | GPIO38 ?       | [Link](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/) | [Link](https://circuitpython.org/board/espressif_esp32s3_devkitc_1_n32r8/) |
 
 [CircuitPython documentation](https://docs.circuitpython.org/en/stable/)
 
