@@ -1,4 +1,5 @@
 import board
+import digitalio
 import usb_hid
 import random
 from adafruit_hid.mouse import Mouse
